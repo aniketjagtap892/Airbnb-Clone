@@ -14,7 +14,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://airbnb-clone-0yg4.onrender.com",
+    origin:"https://airbnb-clone-m73w.onrender.com",
     credentials:true
 }))
 
